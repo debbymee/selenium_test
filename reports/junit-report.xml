@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="sign-up-on-the-website;user-sucess-to-signup-on-the-website" tests="4" failures="1" skipped="0">
+        <properties>
+            <property name="@success" value="true">
+            </property>
+            <property name="URI" value="C:\Users\ASUS\Documents\SELENIUM-TEST\features\signupfemale.feature">
+            </property>
+        </properties>
+        <testcase name="Given user browse singup famale page" classname="sign-up-on-the-website;user-sucess-to-signup-on-the-website" time="0.0009618">
+        </testcase>
+        <testcase name="And user fill phone number to signup" classname="sign-up-on-the-website;user-sucess-to-signup-on-the-website" time="0.0004511">
+        </testcase>
+        <testcase name="When user click signup button" classname="sign-up-on-the-website;user-sucess-to-signup-on-the-website" time="0.0007012">
+        </testcase>
+        <testcase name="Then user can see verification page" classname="sign-up-on-the-website;user-sucess-to-signup-on-the-website" time="13.0778919">
+            <failure message="TypeError: Invalid locator">TypeError: Invalid locator
+    at Object.check [as checkedLocator] (C:\Users\ASUS\Documents\SELENIUM-TEST\node_modules\selenium-webdriver\lib\by.js:275:9)
+    at thenableWebDriverProxy.findElement (C:\Users\ASUS\Documents\SELENIUM-TEST\node_modules\selenium-webdriver\lib\webdriver.js:1007:18)
+    at Object.performClick (C:\Users\ASUS\Documents\SELENIUM-TEST\page-objects\signup-btn.js:13:23)
+    at C:\Users\ASUS\Documents\SELENIUM-TEST\step-definitions\signupfemale-steps.js:20:35
+    at ManagedPromise.invokeCallback_ (C:\Users\ASUS\Documents\SELENIUM-TEST\node_modules\selenium-webdriver\lib\promise.js:1384:14)
+    at TaskQueue.execute_ (C:\Users\ASUS\Documents\SELENIUM-TEST\node_modules\selenium-webdriver\lib\promise.js:3092:14)
+    at TaskQueue.executeNext_ (C:\Users\ASUS\Documents\SELENIUM-TEST\node_modules\selenium-webdriver\lib\promise.js:3075:27)
+    at C:\Users\ASUS\Documents\SELENIUM-TEST\node_modules\selenium-webdriver\lib\promise.js:2935:27
+    at C:\Users\ASUS\Documents\SELENIUM-TEST\node_modules\selenium-webdriver\lib\promise.js:676:7
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)</failure>
+        </testcase>
+    </testsuite>
+</testsuites>
