@@ -1,10 +1,10 @@
 module.exports = {
 
-    url: 'https://account.femaledaily.net/',
+    url: 'https://account.femaledaily.net/register',
     //url elemen itu berada 
 
     elements: {
-        fieldPhone: by.xpath("//button[normalize-space()='SIGN UP']']")
+        signupBtn: by.xpath("//button[normalize-space()='SIGN UP']")
     },
 
     performClick: function () {

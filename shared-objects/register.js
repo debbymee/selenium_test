@@ -1,3 +1,4 @@
 module.exports = {
-     phone : "082118029700"
+     phone : "08132771597909",
+     invalidphone: "0821"
 }
